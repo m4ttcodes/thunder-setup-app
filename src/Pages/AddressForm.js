@@ -15,7 +15,7 @@ export default function AddressForm({ nextStep }) {
   return (
     <React.Fragment>
       <Typography variant='h6' gutterBottom>
-        Shipping address
+        Dirección de envío
       </Typography>
       <FormProvider {...methods}>
         <form
@@ -43,10 +43,10 @@ export default function AddressForm({ nextStep }) {
             }}
           >
             <Button component={Link} to='/checkout-page' variant='outlined'>
-              Back to the Checkout Page
+              Volver a la página de pago
             </Button>
             <Button type='submit' variant='contained' color='primary'>
-              Next
+              Siguiente
             </Button>
           </div>
         </form>
