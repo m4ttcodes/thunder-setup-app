@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Navbar = () => {
   const classes = useStyles();
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{basket, user}, dispatch] = useStateValue();
   const history = useHistory();
 
   const handleAuth = () => {
@@ -69,6 +69,7 @@ const Navbar = () => {
               Hola {user ? user.email : "Invitado"}
             </Typography>
             <div className={classes.button}>
+              
               <Link to={!user && "/signin"}>
                 <Button onClick={handleAuth} variant='outlined'>
                   <strong>{user ? "Cerrar sesión" : "Iniciar sesión"}</strong>

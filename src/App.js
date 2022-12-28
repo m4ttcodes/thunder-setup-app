@@ -12,7 +12,7 @@ import Products from "./Pages/Products";
 import CheckoutPage from "./Pages/CheckoutPage";
 
 function App() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{user}, dispatch] = useStateValue();
 
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
@@ -34,22 +34,22 @@ function App() {
   return (
     <Router>
       <div className='app'>
-        <Navbar />
+        <Navbar/>
         <Switch>
           <Route path='/signup'>
             <SignUp />
           </Route>
           <Route path='/signin'>
-            <SignIn />
+            <SignIn/>
           </Route>
           <Route path='/checkout-page'>
-            <CheckoutPage />
+            <CheckoutPage/>
           </Route>
           <Route path='/checkout'>
-            <Checkout />
+            <Checkout/>
           </Route>
           <Route path='/'>
-            <Products />
+            <Products/>
           </Route>
         </Switch>
       </div>
