@@ -1,3 +1,5 @@
+// Finalizar la compra
+
 import {
   Paper,
   Stepper,

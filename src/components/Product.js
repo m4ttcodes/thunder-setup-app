@@ -1,3 +1,5 @@
+// Tarjeta de productos a la venta dentro del e-commerce
+
 import { useState } from "react";
 import clsx from "clsx";
 import Card from "@material-ui/core/Card";
@@ -47,7 +49,7 @@ export default function Product({
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
-
+// Agregar a base de datos de productos
   const addToBasket = () => {
     dispatch({
       type: actionTypes.ADD_TO_BASKET,

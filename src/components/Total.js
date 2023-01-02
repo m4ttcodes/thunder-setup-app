@@ -1,3 +1,5 @@
+// Página resumen de pedido/carrito de compras
+
 import { Button, makeStyles } from "@material-ui/core";
 import accounting from "accounting";
 import { useStateValue } from "../StateProvider";

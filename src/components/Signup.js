@@ -1,3 +1,5 @@
+// Página en la que el usuario puede crearse una cuenta
+
 import { useState } from "react";
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";

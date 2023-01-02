@@ -1,3 +1,5 @@
+// DB de productos
+
 const products = [
   {
     id: 1,

@@ -1,3 +1,5 @@
+// Para poder pasar los componentes de una variable a otra
+
 import { createContext, useContext, useReducer } from "react";
 
 export const StateContext = createContext();

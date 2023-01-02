@@ -1,3 +1,5 @@
+// Para añadir los productos al carrito, como objetos en un array.
+
 export const initialState = {
   basket: [],
   user: null,
