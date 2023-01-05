@@ -1,4 +1,4 @@
-// Formulario"detalles de pago
+// Formulario detalles de pago
 
 import {Typography, Divider} from "@material-ui/core";
 import Review from "../components/ProcessOrder/Review";
